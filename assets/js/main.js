@@ -22,10 +22,10 @@
 
         if (window.pageYOffset > sticky) {
             header_navbar.classList.add("sticky");
-            logo.src = 'assets/img/logo/logo-2.svg';
+            logo.src = 'assets/img/logo/inkio-logo-2.png';
         } else {
             header_navbar.classList.remove("sticky");
-            logo.src = 'assets/img/logo/logo.svg';
+            logo.src = 'assets/img/logo/inkio-logo.png';
         }
 
 
